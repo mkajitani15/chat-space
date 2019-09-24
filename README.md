@@ -48,8 +48,8 @@ Things you may want to cover:
 ## commentsテーブル
 |Column|Type|Options|
 |------|----|-------|
-|comment|string|null: false, foreign_key: true|
-|image|string|null: false, foreign_key: true|
+|comment|string||
+|image|string||
 |user_id|integer|null: false, foreign_key: true|
 |group_id|integer|null: false, foreign_key: true|
 
