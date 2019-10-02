@@ -1,2 +1,59 @@
-%h1 Messages#index
-%p Find me in app/views/messages/index.html.haml
+.left-contents
+  .left-contents__header
+    .left-contents__header__usernamebox
+      m.kajitani
+    .left-contents__header__btn
+      .left-contents__header__btn__btnA
+      =link_to "https://www.facebook.com/", class: "contents__btn" do
+        iconA
+      .left-contents__header__btn__btnB
+      =link_to "https://www.facebook.com/", class: "contents__btn" do
+        iconB
+  
+  .left-contents__underbox
+    .left-contents__underbox__groupnamebox
+      test-group
+    .left-contents__underbox__messagebox
+      good-bye!!
+
+    .left-contents__underbox__groupnamebox
+      sample-group
+    .left-contents__underbox__messagebox
+      hello!!
+
+.right-contents
+  .right-contents__header
+    .right-contents__header__groupnamebox
+      groupname
+      .right-contents__header__memberbox
+        Member：oooooo ooo m.kajitani
+    .right-contents__header__edit
+      Edit
+
+  .right-contents__mainbox
+    .right-contents__mainbox__box
+    .right-contents__mainbox__username
+      m.kajitani
+    .right-contents__mainbox__time
+      2019/09/30
+    .right-contents__mainbox__message
+      こんにちは!!
+
+    .right-contents__mainbox__username
+      testman
+    .right-contents__mainbox__time
+      2019/09/30
+    .right-contents__mainbox__message
+      see you!!
+    
+  .right-contents__footer
+    .right-contents__footer__box
+      .right-contents__footer__box__message
+        type a message...
+      .right-contents__footer__box__btn
+        .right-contents__footer__box__btn__icon
+        =link_to "https://www.facebook.com/", class: "contents__btn" do
+          iconC
+    .right-contents__footer__send
+      send
+
