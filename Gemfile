@@ -57,3 +57,5 @@ gem 'haml-rails'
 
 # fontawesome introduction
 gem "font-awesome-rails"
+
+gem 'devise'
